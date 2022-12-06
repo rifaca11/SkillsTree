@@ -47,7 +47,7 @@
       <p class="text-gray-100">
         or use email your account
       </p>
-      <form action="" class="sm:w-2/3 w-full px-4 lg:px-0 mx-auto">
+      <form action="/login" method="post" class="sm:w-2/3 w-full px-4 lg:px-0 mx-auto">
         <div class="pb-2 pt-4">
           <input type="email" name="email" id="email" placeholder="Email" class="block w-full p-4 text-lg rounded-sm bg-black">
         </div>
