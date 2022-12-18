@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class LoginController {
 //    pour definir cette function comme lien
     @GetMapping(value = "/")
-//    Pour retourner la valeur dans le body
+//    Pour retourner la valeur string dans le body, on ajoute l'annotation @Responsebody
     public String loginPage(){
          return "Login";
     }

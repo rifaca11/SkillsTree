@@ -29,6 +29,7 @@
 <!-- component -->
 <body>
 <section class="min-h-screen flex items-stretch text-white ">
+
   <div class="lg:flex w-1/2 hidden bg-gray-500 bg-no-repeat bg-cover relative items-center" style="background-image: url(https://oseance.com/wp-content/uploads/2019/02/arbre-3.jpg);">
     <div class="absolute bg-black opacity-60 inset-0 z-0"></div>
     <div class="w-full px-24 z-10">
@@ -41,7 +42,18 @@
     <div class="absolute lg:hidden z-10 inset-0 bg-gray-500 bg-no-repeat bg-cover items-center" style="background-image: url(https://images.unsplash.com/photo-1577495508048-b635879837f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80);">
       <div class="absolute bg-black opacity-60 inset-0 z-0"></div>
     </div>
+
     <div class="w-full py-6 z-20">
+      <%--  start alert danger--%>
+      <div class="flex p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800" role="alert">
+        <svg aria-hidden="true" class="flex-shrink-0 inline w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
+        <span class="sr-only">Info</span>
+        <div>
+          <span class="font-medium">${error_msg}</span>
+        </div>
+      </div>
+      <%--  end alert danger--%>
+      <
       <h1 class="my-6 text-2xl">
         ARBRE DE COMPETENCES
       </h1>
