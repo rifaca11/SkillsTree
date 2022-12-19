@@ -1,11 +1,13 @@
 package com.koala.skillstree.services;
 
 import com.koala.skillstree.models.Student;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+@Service
 public class StudentService {
     private static int studentId=3;
     private static List<Student> students = new ArrayList<Student>();
@@ -14,12 +16,11 @@ public class StudentService {
         students.add(new Student(2,"haytham","haytham@gmail.com","123"));
         students.add(new Student(3,"ilyass","ilyass@gmail.com","123"));
     }
-    public List<Student> readAllStudent(String email){
+    public List<Student> readAllStudent(){
         List<Student> student = new ArrayList<Student>();
         for(Student st : students){
-            if(st.getEmail().equals(email)){
                 student.add(st);
-            }
+
         }
         return student;
     }
