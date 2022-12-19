@@ -53,7 +53,7 @@
         </div>
       </div>
       <%--  end alert danger--%>
-      <
+
       <h1 class="my-6 text-2xl">
         ARBRE DE COMPETENCES
       </h1>
@@ -61,7 +61,7 @@
       <p class="text-gray-100">
         use email to connect to your account
       </p>
-      <form action="/login" method="post" class="sm:w-2/3 w-full px-4 lg:px-0 mx-auto">
+      <form action="/" method="post" class="sm:w-2/3 w-full px-4 lg:px-0 mx-auto">
         <div class="pb-2 pt-4">
           <input type="email" name="email" id="email" placeholder="Email" class="block w-full p-4 text-lg rounded-sm bg-black">
         </div>
